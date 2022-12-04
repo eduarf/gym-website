@@ -40,7 +40,22 @@ body {
 .container {
   display: grid;
   grid-template-columns: [container-start] 1fr [center-start] repeat(6, [col-start] minmax(min-content, 16.6rem) [col-end]) [center-end] 1fr [container-end];
-  grid-template-rows: min-content 100vh repeat(9, min-content); }
+  grid-template-rows: min-content 90vh repeat(9, min-content); }
+
+li {
+  list-style: none; }
+
+a:link,
+a:visited {
+  text-decoration: none;
+  color: var(--color-quinary);
+  font-weight: 400;
+  letter-spacing: .2rem;
+  font-size: calc(1.2rem + .5vw); }
+
+i {
+  color: var(--color-primary);
+  font-size: calc(1.5rem + 2vw); }
 
 .clients {
   background-color: var(--color-secondary);
