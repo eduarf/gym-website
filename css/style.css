@@ -41,3 +41,48 @@ body {
   display: grid;
   grid-template-columns: [container-start] 1fr [center-start] repeat(6, [col-start] minmax(min-content, 16.6rem) [col-end]) [center-end] 1fr [container-end];
   grid-template-rows: min-content 100vh repeat(9, min-content); }
+
+.clients {
+  background-color: var(--color-secondary);
+  grid-column: container-start / container-end;
+  height: 600px; }
+
+.features {
+  background-color: var(--color-secondary);
+  grid-column: container-start / container-end;
+  height: 600px; }
+
+.motto {
+  background-color: var(--color-quaternary);
+  grid-column: container-start / container-end;
+  height: 600px; }
+
+.register {
+  background-color: var(--color-primary);
+  grid-column: container-start / container-end;
+  height: 600px; }
+
+.showcase {
+  background-color: var(--color-tertiary);
+  grid-column: container-start / container-end;
+  height: 100vh; }
+
+.testimonials {
+  background-color: var(--color-quaternary);
+  grid-column: container-start / container-end;
+  height: 500px; }
+
+.trainers {
+  background-color: var(--color-tertiary);
+  grid-column: center-start / center-end;
+  height: 600px; }
+
+.footer {
+  background-color: var(--color-tertiary);
+  grid-column: container-start / container-end;
+  height: 600px; }
+
+.header {
+  background-color: var(--color-secondary);
+  grid-column: container-start / container-end;
+  height: 600px; }
