@@ -1,0 +1,29 @@
+// Light Theme
+
+html {
+    --color-primary: hsl(87, 98%, 34%);
+    --color-primary-m: hsla(87, 100%, 45%, 0.6);
+    --color-secondary: hsl(211, 100%, 45%);
+    --color-secondary-m: hsl(211, 100%, 45%, .6);
+    --color-tertiary: hsl(201, 100%, 23%);
+    --color-tertiary-m: hsl(201, 100%, 23%, .6);
+    --color-quaternary: hsl(40, 100%, 76%);
+    --color-quaternary-m: hsl(40, 100%, 76%, .6);
+    --color-quinary: rgba(255,255,255);
+    --color-quinary-m: rgba(255, 255, 255, .5);
+}
+
+
+//Dark Theme
+html[data-theme="dark"] {
+    --color-primary: rgb(36, 38, 43);
+    --color-primary-m: rgba(36, 38, 43, .65);
+    --color-secondary: hsl(87, 98%, 34%);
+    --color-secondary-m: hsla(87, 100%, 45%, 0.6);
+    --color-tertiary: hsl(201, 100%, 23%);
+    --color-tertiary-m: hsl(201, 100%, 23%, .6);
+    --color-quaternary: hsl(102, 10%, 65%);
+    --color-quaternary-m: hsl(102, 10%, 65%, 0.6);
+    --color-quinary: rgba(255,255,255);
+    --color-quinary-m: rgba(255, 255, 255, .5);
+}
