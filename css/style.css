@@ -202,3 +202,27 @@ i {
     .header__toggle-container input:checked[type='checkbox']::after {
       right: 56%;
       box-shadow: none; }
+  @media screen and (max-width: 50em) {
+    .header__nav {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 25rem;
+      height: 100vh;
+      line-height: initial;
+      flex-direction: column;
+      text-align: center;
+      z-index: 20;
+      transform-origin: top left;
+      transition: transform 0.5s ease-in-out; }
+    .header__links {
+      height: 80rem;
+      flex-direction: column;
+      justify-content: space-evenly; }
+    .header__item {
+      animation: initial; }
+      .header__item a:link,
+      .header__item a:visited {
+        padding: 2rem;
+        font-size: 1.4rem;
+        margin-right: initial; } }
