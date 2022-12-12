@@ -1,0 +1,20 @@
+@keyframes upwards {
+    from {
+        transform: translateY(75%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+@keyframes downwards {
+    from {
+        transform: translateY(-75%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
